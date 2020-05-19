@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta type="content" charset="utf-8" />
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script src="script.js"></script>
+	<title>Exercice</title>
+	<style>
+		body {
+			padding: 5em;
+			font-family: 'Helvetica Neue';
+			font-size: 24px;
+		}
+
+		* {
+			margin: 0;
+			padding: 0;
+			list-style: none;
+			text-decoration: none;
+		}
+
+		/* =Buttons
+----------------------------------------------- */
+		.button {
+			background: #fff;
+			display: inline-block;
+			border: solid 1px #cbcbcb;
+			border-radius: 3px;
+			box-shadow: 0 1px 1px rgba(0, 0, 0, .1);
+			-webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, .1);
+			line-height: 1.5;
+		}
+
+		.button>span {
+			padding: 5px 15px;
+			color: #717171;
+			font-weight: bold;
+			font-size: 12px;
+		}
+
+		/* Colors */
+		.button.orange {
+			background-color: #db5406;
+			background-position: 0 -141px;
+			border-color: #ba4705;
+		}
+
+		.button.orange>span {
+			color: #fff;
+			text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.3);
+			border-color: rgba(255, 255, 255, .2);
+		}
+
+		.button.big {
+			background-position: 0 -30px;
+		}
+
+		/* Group vertical */
+		ul.buttons_vertical li {
+			margin: 0 0 5px 10px;
+			position: relative;
+		}
+
+		ul.buttons_vertical li:hover {
+			margin-left: 7px;
+			-webkit-transition: margin 0.1s;
+			-moz-transition: margin .1s;
+			-o-transition: margin .1s;
+			transition: margin .1s;
+		}
+
+		ul.buttons_vertical a {
+			display: block;
+		}
+
+		ul.buttons_vertical a>span {
+			height: 37px;
+			line-height: 1.1;
+			padding: 10px 0 0 13px;
+			display: block;
+		}
+
+		ul.buttons_vertical a>span .text {
+			font-weight: normal;
+		}
+
+		ul.buttons_vertical li.active {
+			margin-left: 0;
+		}
+	</style>
+</head>
+
+<body>
+	<ul class="menu buttons_vertical">
+		<li class="active"> <a href="#" class="button orange big"><span>Paris</span></a></li>
+		<li> <a href="#" class="button big"> <span>Berlin</span></a></li>
+		<li> <a href="#" class="button big"> <span>Sydney</span> </a></li>
+		<li> <a href="#" class="button big"> <span>Madrid</span></a></li>
+		<li> <a href="#" class="button big"> <span>Rome</span></a></li>
+		<li> <a href="#" class="button big"> <span>Londres</span> </a></li>
+	</ul>
+</body>
+
+</html>

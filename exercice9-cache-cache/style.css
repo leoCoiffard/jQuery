@@ -1,0 +1,26 @@
+.contenu{
+    width: 30%;
+    border-bottom: 3px solid blueviolet;
+}
+p{
+    display: none;
+}
+.plus{
+    position: relative;
+    left: 250px;
+}
+#popup{
+    position: absolute;
+    left: 150px;
+    display: none;
+    top: 165px;
+    width: 20%;
+    height: 170px;
+    background:red;
+}
+#popup p{
+    color: black;
+}
+button{
+    margin-top: 15px;
+}

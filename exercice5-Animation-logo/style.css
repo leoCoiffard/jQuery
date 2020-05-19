@@ -1,0 +1,38 @@
+body{
+    background: gray;
+}
+#conteneur{
+    display: flex;
+    background: white;
+    max-width: 1000px;
+    height: 300px;
+    margin: 0 auto;
+}
+#rose , #vert , #gris ,#bleu{
+    margin-left: 8px;
+    display: none;
+}
+#rose{
+    top: 300px;
+    position: absolute;
+}
+#vert{
+    left: 1190px;
+    position: absolute;
+}
+#bleu{
+    top: 300px;
+    left: 500px;
+    position: absolute;
+}
+#gris{
+    top: 300px;
+    left: 1000px;
+    position: absolute;
+}
+p{
+    font-size: 2.2em;
+    display: none;
+    position: relative;
+    top: 2px;
+}
